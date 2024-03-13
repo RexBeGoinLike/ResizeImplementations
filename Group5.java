@@ -123,9 +123,4 @@ class MyCanvas extends JComponent{
         currentSize.width = minSizeW;
         repaint();
     }
-
-    public void setMinimumSize(int w, int h){
-        minSizeW = w;
-        minSizeH = h;
-    }
 }
